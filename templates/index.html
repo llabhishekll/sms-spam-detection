@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Spam Detection</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="./css/bootstrap.min.css">
+	</head>
+	<body>		
+		<div class='Absolute-Center'>
+			<div class='align-items-center'>
+				<div class='col-lg-6'>
+					<div class="input-group">
+						<div class='row'>
+							<form action="{{url_for('result')}}" class="form-control" method="post">
+								<input type="text" name="message" placeholder=" Enter you message">
+					      		<span class="input-group-btn">
+					        		<button class="btn btn-primary">Submit</button>
+					      		</span>
+					      	</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
